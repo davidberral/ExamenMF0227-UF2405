@@ -10,8 +10,8 @@
 <h1>Listado de Asesores</h1>
 <% 
 
-AsesorDAO libroDAO = new AsesorDAOMySQL();
-List<Asesor> lista = libroDAO.getListaAsesores();
+AsesorDAO asesorDAO = new AsesorDAOMySQL();
+List<Asesor> lista = asesorDAO.getListaAsesores();
 
    if (lista==null) {
 %>
