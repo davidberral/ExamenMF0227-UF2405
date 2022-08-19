@@ -49,7 +49,8 @@ public class Asesor {
 	 * @param decesos boolean que indica si el asesor puede dar de alta seguros de decesos o no 
 	 * @param numVentas int número de ventas promedio que debe cumplir el asesor al mes
 	 */
-	public Asesor(String dni, String nombre, String apellidos, String contrato, boolean coche, boolean hogar,
+	public Asesor(String dni, String nombre, String apellidos,
+			String contrato, boolean coche, boolean hogar,
 			boolean decesos, int numVentas) {
 		this.dni = dni;
 		this.nombre = nombre;
